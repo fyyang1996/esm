@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Demo page for Improve bilingual TTS using dynamic language and phonology embedding</title>
+<title>Demo page for Improve bilingual TTS using language and phonology embedding with embedding strength modulator</title>
 </head>
 <body>
 
-<h2 align="center"> Improve bilingual TTS using dynamic language and phonology embedding</h2>
-<div><b>Abstract:</b> In most cases, bilingual TTS needs to handle three types of input scripts: first language only, second language only, and second language embedded in the first language. In the latter two situations, the pronunciation and intonation of the second language are usually quite different due to the influence of the first language. Therefore, it is a big challenge to accurately model the pronunciation and intonation of the second language in different contexts without mutual interference. This paper builds a Mandarin-English TTS system to acquire more standard spoken English speech from a monolingual Chinese speaker. We introduce phonology embedding to capture the English differences between different phonology. Embedding mask is applied to language embedding for distinguishing information between different languages and to phonology embedding for focusing on English expression. We specially design an embedding strength modulator to capture the dynamic strength of language and phonology. Experiments show that our approach can produce significantly more natural and standard spoken English speech of the monolingual Chinese speaker. From analysis, we find that suitable phonology control contributes to better performance in different scenarios.</div>
+<h2 align="center"> Improve bilingual TTS using language and phonology embedding with embedding strength modulator</h2>
+<div><b>Abstract:</b> In most cases, bilingual TTS needs to handle three types of input scripts: first language only, second language only, and second language embedded in the first language. In the latter two situations, it is a big challenge to accurately model the pronunciation and intonation of the second language in different contexts without mutual interference. This paper builds a Mandarin-English TTS system to acquire more standard spoken English speech from a monolingual Chinese speaker. We introduce phonology embedding to capture the English differences between different phonology with embedding masks. An embedding strength modulator is specially designed to capture the dynamic strength of language and phonology. Experiments show that our approach can produce significantly more natural and standard spoken English speech of the monolingual Chinese speaker. From analysis, we find that suitable phonology control contributes to better performance in different scenarios.</div>
 
 <h3>1. Comparing the speech naturalness and speaker similarity of different bilingual systems: </h3>
 <h4>English: </h4>
